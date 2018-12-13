@@ -20,7 +20,7 @@ public class App
 
        Engine engine = new Engine();
        engine.manufacturer ="Renault" ;
-       engine.capacity = 15900;
+       engine.capacity = 1500;
 
        car.engine = engine;
        engine = null;
