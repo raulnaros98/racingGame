@@ -17,12 +17,10 @@ public class App
        car.mileage = 7.5;
        car.running = true;
 
+       double distance =car.accelarate(100,0.5);
 
 
-       engine = null;
 
-       Car car2 = new Car(new Engine());
-       car2.name = "BMW";
 
     }
 
