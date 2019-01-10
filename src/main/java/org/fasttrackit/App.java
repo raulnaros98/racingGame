@@ -33,6 +33,7 @@ public class App
         new AutoVehicle();
         vehicle1.accelerate (34.12);
         vehicle2.accelerate(130, 0.8);
+        new UFO().accelerate(130, 0.8);
 
     }
 
