@@ -10,7 +10,7 @@ public class vehicle {
         vehicleCount++;
     }
 
-    public double accelarate(double speed, double durationInHours)
+    public double accelerate(double speed, double durationInHours)
     {
         System.out.println(name + "has accelarated with" + speed + "km/h for" + durationInHours + "hours");
         double travelDistance = speed * durationInHours;
@@ -18,6 +18,9 @@ public class vehicle {
 
         return travelDistance;
     }
-
+    //example of method overloading
+    public double accelerate (double speed) {
+        return accelerate(speed, 1);
+    }
 
 }
