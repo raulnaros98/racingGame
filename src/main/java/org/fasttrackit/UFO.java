@@ -13,5 +13,9 @@ public class UFO extends vehicle {
             return travelDistance;
         }
 
+        public void concealCheating(){
+            System.out.println("I'm not cheating");
+        }
+
 }
 

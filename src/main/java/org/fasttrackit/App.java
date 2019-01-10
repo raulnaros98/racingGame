@@ -37,6 +37,12 @@ public class App
         vehicle2.accelerate(130, 0.8);
         new UFO().accelerate(130, 0.8);
 
+        vehicle ufo =new UFO();
+        ufo.accelerate(200,2);
+        ((UFO) ufo).concealCheating(); //type casting
+
+
+
     }
 
 }
