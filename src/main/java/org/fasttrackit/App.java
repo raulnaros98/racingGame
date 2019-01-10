@@ -26,7 +26,7 @@ public class App
         //vehicle2.vehicleCount++;
 
 
-        System.out.println( "Value from vehicle1 : "+ vehicle1.vehicleCount);
+        System.out.println( "Value from vehicle1 : "+ vehicle1.vehicleCount );
         System.out.println( "Value from vehicle2 : "+ vehicle2.vehicleCount);
         System.out.println( "Value from vehicle class : "+ vehicle.vehicleCount);
 
