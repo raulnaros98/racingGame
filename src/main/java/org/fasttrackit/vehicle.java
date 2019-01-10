@@ -23,4 +23,12 @@ public class vehicle {
         return accelerate(speed, 1);
     }
 
+    @Override
+    public String toString() {
+        return "vehicle{" +
+                "name='" + name + '\'' +
+                ", color='" + color + '\'' +
+                ", mileage=" + mileage +
+                '}';
+    }
 }
